@@ -1,7 +1,7 @@
 # Computer-Vision-ResNet-Object-Detector
 Residual Neural Network Object Detector written for Pycocotool's library. Model implements custom skip block connections and uses a custom dataset loader for image classification object detection. This repository consists of 3 files, MSE, IOU and Val respectively. The first two, MSE and IoU are models that use different loss metrics for backpropagation; with MSE using Mean Square Error for back propagation and IoU using intersection over union. Running these two models will produce two separate neural nets, which can be further trained. The Val file takes these two models (saved as mse_net and iou_net) and evaluates its performance through data visualization of confusion matrices and producing randomly sampled images and indicates their predicted class labels and true labels.
 
-This neural network architecture also utilizes bounding boxes, which are used to identify the dominant object of the image and make a prediction based on that dominant object. This can be seen throughout the code through the variable "bbox".
+This neural network architecture also utilizes bounding boxes, which are used to identify the dominant object of the image and make a prediction based on that dominant object. This can be seen throughout the code using the variable "bbox".
 
 #Resnet Architecture
 the ResNet architecture consists of several layers, including:
