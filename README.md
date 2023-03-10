@@ -4,7 +4,7 @@ Residual Neural Network Object Detector written for Pycocotool's library. Model 
 This neural network architecture also utilizes bounding boxes, which are used to identify the dominant object of the image and make a prediction based on that dominant object. This can be seen throughout the code under the variable "bbox".
 
 #Resnet Architecture
-the ResNet architecture consists of several layers, including:
+The architecture of the Resnet consists of several layers, including:
 
 Convolutional layers: These layers apply a convolution operation to the input data, which involves sliding a set of filters over the data and computing dot products between the filter values and the input values. The output of a convolutional layer is a set of feature maps that capture different aspects of the input data.
 
